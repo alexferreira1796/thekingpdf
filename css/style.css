@@ -1,0 +1,66 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+	font-size: 100%;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+}
+html, body {
+	width: 100%;
+	height: 100%;
+}
+ul {list-style: none !important;}
+a {text-decoration: none !important;}
+.centraliza {margin: 0 auto; display: table;}
+
+/* TOP HEADER */
+.top-header {
+	background-color: #000;
+	width: 100%;
+	padding: 15px 0px 15px 0;
+}
+.content-left::before {
+	content: "|";
+	color: #fff;
+	width: 100%;
+	height: 100%;
+	margin: 0px 10px 0px 10px;
+}
+.top-header a {
+	color: #d49f1a;
+	font-weight: bold;
+}
+.top-header a:hover {
+	color: #fff;
+}
+/* HEADER */
+.header {
+	background: url('../img/bg_header.png') no-repeat;
+	width: 100%;
+	height: auto;
+	padding: 20px;
+	background-size: 100%;
+}
+
+.logo {
+	background: url('../img/the_king_pdf.png');
+	width: 250px;
+    height: 250px;
+	background-size: 100%;
+	font-size: 0;
+	float: left;
+}
+
+/* MENU */
+.bg-menu {
+	background-color: #d49f1a;
+	width: 100%;
+	height: auto;
+}
+#menu-header a {
+	color: #fff !important;
+}
